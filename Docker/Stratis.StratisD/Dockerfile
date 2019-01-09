@@ -10,6 +10,6 @@ WORKDIR /StratisBitcoinFullNode/src/Stratis.StratisD
 
 COPY stratis.conf.docker /root/.stratisnode/stratis/StratisMain/stratis.conf
 
-EXPOSE 18444 18442 26174 26178 37221
+EXPOSE 18444 18442 26174 26178 37221 5000
 
 CMD ["dotnet", "run"]
